@@ -21,7 +21,6 @@ func CreateGraphvizString(startState string, events fsm.Events, fsmName string) 
 		"labelloc=\"t\";\n" +
 		fmt.Sprintf("label=\"%s\";\n", fsmName) +
 		"rankdir=LR;\n" +
-		"size=\"8,5\";\n\n" +
 		"node [shape = point] qi;\n"
 	outputString += preamble
 	for state := range states {
