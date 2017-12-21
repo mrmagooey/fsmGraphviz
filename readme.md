@@ -4,7 +4,7 @@ A go library for creating graphviz diagrams using data structures from <https://
 
 You need graphviz installed to actually create the diagrams, this just creates the graphviz information.
 
-<img src="myFsm.png" alt="FSM Example" width="200px" height="150px"/>
+<img src="myFsm.png" alt="FSM Example" width="400px" height="150px"/>
 <!-- ![fsm example](myFsm.png "fsm example") -->
 
 ## Usage
