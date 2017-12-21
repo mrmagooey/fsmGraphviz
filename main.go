@@ -7,9 +7,13 @@ import (
 )
 
 // CreateGraphvizString create a graphviz "dot file" string from fsm information
+//
 // startState will be the state that the FSM starts in
+//
 // events take a looplab/fsm events slice
+//
 // title is purely aesthetic, will add a title to the top of the diagram
+//
 // layoutDirection can be one of LR, RL, TB, BT
 func CreateGraphvizString(startState string, events fsm.Events, title string, layoutDirection string) (outputString string, err error) {
 	// get all the states from the events
